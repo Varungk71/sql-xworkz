@@ -1,0 +1,25 @@
+
+use task;
+create database Mobile;
+create table Mobile_info(id int,brand_name varchar(50),Price bigint,Charger_Speed varchar(20),Battery_capacity varchar(50),Camera varchar(20),colour varchar(50),Processor varchar(100),RAM varchar(50),ROM varchar(50));
+select*from Mobile_info;
+insert into Mobile_info values(1,'IQOO',35000,'80W','4070MAH','64MP','MAVARICK_ORANGE','Snapdragon870','12GB','256GB');
+insert into Mobile_info values(2,'OPPO',20000,'10W','5000MAH','32MP','BLUE','Mediatek200','6GB','128GB');
+insert into Mobile_info values(3,'VIVO',15000,'20W','4070MAH','64MP','RED','Snapdragon_8_gen1','8GB','128GB');
+insert into Mobile_info values(4,'REALME',10000,'15W','5000MAH','32MP','ORANGE','Snapdragon_8','12GB','256GB');
+insert into Mobile_info values(5,'ONEPLUS',40000,'200W','4000MAH','64MP','WHITE','Snapdragon670','4GB','128GB');
+insert into Mobile_info values(6,'POCO',18000,'10W','5500MAH','13MP','BLACK','Mediatek8000','8GB','128GB');
+insert into Mobile_info values(7,'MI',25000,'120W','5000MAH','16P','GREEN','Snapdrgon400','8GB','128GB');
+insert into Mobile_info values(8,'SAMSUNG',45000,'100W','6000MAH','200MP','BROWN','Snapdragon_8gen_2','16GB','1TB');
+insert into Mobile_info values(9,'LENOVA',20000,'18W','4000MAH','32MP','PURPLE','Snapdragon450','4GB','128GB');
+insert into Mobile_info values(10,'IPHONE_15_PRO_MAX',200000,'40W','3500MAH','64MP','WHITE','M2_MAX','12GB','256GB');
+insert into Mobile_info values(11,'VIVO',15000,'20W','4070MAH','64MP','RED','Snapdragon_8_gen1','8GB','128GB');
+insert into Mobile_info values(12,'REALME',10000,'15W','5000MAH','32MP','ORANGE','Snapdragon_8','12GB','256GB');
+insert into Mobile_info values(13,'ONEPLUS',40000,'200W','4000MAH','64MP','WHITE','Snapdragon670','4GB','128GB');
+insert into Mobile_info values(14,'MI',25000,'120W','5000MAH','16P','GREEN','Snapdrgon400','8GB','128GB');
+insert into Mobile_info values(15,'SAMSUNG',45000,'100W','6000MAH','200MP','BROWN','Snapdragon_8gen_2','16GB','1TB');
+insert into Mobile_info values(16,'LENOVA',20000,'18W','4000MAH','32MP','PURPLE','Snapdragon450','4GB','128GB');
+insert into Mobile_info values(17,'IPHONE_15_PRO_MAX',200000,'40W','3500MAH','64MP','WHITE','M2_MAX','12GB','256GB');
+insert into Mobile_info values(18,'POCO',18000,'10W','5500MAH','13MP','BLACK','Mediatek8000','8GB','128GB');
+insert into Mobile_info values(19,'IQOO',35000,'80W','4070MAH','64MP','MAVARICK_ORANGE','Snapdragon870','12GB','256GB');
+insert into Mobile_info values(20,'OPPO',20000,'10W','5000MAH','32MP','BLUE','Mediatek200','6GB','128GB');
